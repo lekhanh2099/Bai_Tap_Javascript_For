@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Bài Tập For</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <!-- Bài 1 -->
+            <div class="col-12">
+                <div class="card border-primary p-4 my-2">
+                    <div class="card-header">
+                        <h1 class="text-primary">Bài 1:</h1>
+                        <p class="text-center">Tìm số nguyên nhỏ nhất sao cho 1 + 2 + 3... + n < 10.000</p>
+                    </div>
+                    <div class="card-body">
+                        <p>Kết quả là: <span id="see_result_ex_1" class="text-primary">...</span></p>
+                        <button class="btn btn-primary" id="example_1">Xem kết quả</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-12" id="form-2">
+                <div class="card border-primary p-4 my-2">
+                    <div class="card-header">
+                        <h1 class="text-primary">Bài 2:</h1>
+                        <p class="text-center">Viết chương trình nhập vào 2 số x, n sao cho S(n) = x + x^2 + x^3...
+                            + x^n</p>
+                    </div>
+                    <div class="card-body">
+                        <p>Nhập x:</p>
+                        <input id="value_ex_2-1" type="number" class="form-control" placeholder="Nhập x bằng...">
+                        <p><span class="text-danger" id="err_2-1"></span></p>
+                        <p>Nhập n:</p>
+                        <input id="value_ex_2-2" type="number" class="form-control" placeholder="Nhập n bằng...">
+                        <p class="p-0 m-0"><span class="text-danger" id="err_2-2"></span></p>
+                    </div>
+                    <div class="card-body">
+                        <p> Kết quả là: <span id="see_result_ex_2" class="text-primary">...</span></p>
+                        <button class="btn btn-primary" id="example_2">Xem kết quả</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="card border-primary p-4 my-2">
+                    <div class="card-header">
+                        <h1 class="text-primary">Bài 4:</h1>
+                        <p class="text-center">Chương trình khi click vào button sẽ in ra 10 thẻ div. Nếu div nào vị trí
+                            chẵn thì background màu đỏ và lẻ thì background màu xanh</p>
+                    </div>
+                    <div class="card-body">
+                        <form class="form-group">
+                            <button class="btn btn-primary" id="example_4">Xem kết quả</button>
+                        </form>
+                    </div>
+                </div>
+                <div id="see_result_ex_4" class="my-3 card border-primary p-4">
+                    <h1>Kết quả bài 4:</h1>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="card border-primary p-4 my-2">
+                    <div class="card-header">
+                        <h1 class="text-primary">Bài 3:</h1>
+                        <p class="text-center">Nhập vào n. Tính giai thừa 1*2*...n</p>
+                    </div>
+                    <div class="card-body">
+                        <p>Nhập n</p>
+                        <input id="value_ex_3" type="number" class="form-control" placeholder="Nhập n bằng...">
+                    </div>
+                    <div class="card-body">
+                        <p> Kết quả là: <span id="see_result_ex_3" class="text-primary">...</span></p>
+                        <button class="btn btn-primary" id="example_3">Xem kết quả</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+
+        <!-- Main Javascript -->
+        <script src="./bai-1/main.js"></script>
+        <script src="./bai-2/main.js"></script>
+        <script src="./bai-3/main.js"></script>
+        <script src="./bai-4/main.js"></script>
+</body>
+
+</html>
